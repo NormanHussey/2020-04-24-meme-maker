@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Meme Maker</title>
 </head>
 <body>
@@ -10,14 +11,18 @@
         <h1>Meme Maker</h1>
     </header>
     <main>
-        <div class="memeContainer">
-            
+        <div class="wrapper">
+            <div class="memeContainer" contenteditable="true">
+                <svg>
+                    <image xlink:href="https://www.amrita.edu/sites/default/files/news-images/new/news-events/images/l-nov/grass.jpg" />
+                    <text x="10" y="10">Hello world</text>
+                </svg>
+            </div>
         </div>
     </main>
     <footer>
 
     </footer>
-    <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
     <script src="./script.js"></script>
 </body>
 </html>
